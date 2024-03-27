@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* CSS for Navbar */
+.navbar {
+  background-color: #444e6d;
+  color: white;
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+/* CSS for Sidebar */
+.sidebar {
+  background-color: #5b6279;
+  width: 200px;
+  padding: 20px;
+  float: left;
+  height: 632px;
+  color: white;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.sidebar li:hover {
+  background-color: #9599de;
+  width: auto;
+}
+
+/* CSS for Main Content */
+.main-content {
+  margin-left: 200px;
+  padding: 240px;
+  background-color: white;
+}
+
+.user-management {
+  width: 70%; /* Adjust based on your design */
+  margin: auto;
+}
+
+.change-password {
+  width: 50%; /* Adjust based on your design */
+  margin: auto;
+}
+
+/* Additional styles as needed */
